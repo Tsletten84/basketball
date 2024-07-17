@@ -1,5 +1,5 @@
 @font-face {
-    src:"customfont.ttf";
+    src: url("customfont.ttf");
     font-family: customfont;
 
 }
@@ -7,18 +7,49 @@ body {
     background-color: #1B244A;
     margin: 0;
     text-align: center;
+    width: 575px;
+    height: 385px;
+    margin: 70px auto;
+}
+h3 {
+    margin-bottom:21px;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color:#EEEEEE;
 }
 #scoreBoard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 155px;
     height: 120px;
     background-color: #080001;
     border-radius: 5px;
     color: #F94F6D;
     font-family: customfont;
-    font-size: px;
+    font-size:50px;
+}
+
+button {
+    margin-top:26px;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #9AABD8;
+    font-family: customfont;
+    font-size: 18px;
+    
+}
+#reset {
+    width: 100px;
+}
+
+button:hover {
+    background-color:#F94F6D ;
 }

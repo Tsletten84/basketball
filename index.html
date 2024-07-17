@@ -10,19 +10,23 @@
                 <div id="scoreBoard">
                     <h1 id="homePoints">0</h1>
                 </div>
-                <button id="home1">+1</button>
-                <button id="home2">+2</button>
-                <button id="home3">+2</button>
+                <button id="home1" onclick="home1()">+1</button>
+                <button id="home2" onclick="home2()">+2</button>
+                <button id="home3" onclick="home3()">+3</button>
             </div>
             <div>
                 <h3>GUEST</h3>
                 <div id="scoreBoard">
                     <h1 id="guestPoints">0</h1>
                 </div>
-                <button id="guest1">+1</button>
-                <button id="guest2">+2</button>
-                <button id="guest3">+2</button>
+                <button id="guest1" onclick="guest1()">+1</button>
+                <button id="guest2" onclick="guest2()">+2</button>
+                <button id="guest3" onclick="guest3()">+3</button>
+                
             </div>
+        </div>
+        <div>
+            <button id="reset" onclick="resetScore()"> Reset scores</button>
         </div>
         <script src="index.js"></script>
     </body>
